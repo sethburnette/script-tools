@@ -2,6 +2,7 @@
 
 This is an ongoing collection of useful one-off C# scripts that I have created for Unity, including example scenes.
 
+-------------------
 
 AnimSpriteController
 =======
@@ -35,7 +36,7 @@ LightTrigger
 
 ![gif](https://imgur.com/kFUpzft.gif)
 
-*LightTrigger* works with a trigger volume around an object of interest, activating camera light only when it enters that volume.
+*LightTrigger* works with a trigger volume around an object of interest, activating a camera light only when it enters that volume.
 The example scene should show how this simple script can be set up and used.
 
 -------------------
