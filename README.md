@@ -12,6 +12,13 @@ AnimSpriteController
 *AnimSpriteController* allows the user to implement a sequence of any number of sprite textures as an animation. 
 Useful for custom animations exported from something like After Effects, which otherwise couldn't be done within Unity.
 
+Includes the following features:
+- Custom frame rate
+- Play animation only once
+- Play animation repeatedly
+- Rewind animation
+- Ping-pong animation
+
 -------------------
 
 CustomEditorCamera
@@ -21,9 +28,9 @@ CustomEditorCamera
 
 *CustomEditorCamera* is designed to be placed on the Main Camera, allowing for control similar to a 3D editing package.
 Additionally, the view will center on any objects selected with a mouse click. Click any non-collision area to de-select.
-
 Note that currently this requires the added step of manually creating a "Selected" Tag in the project.
 
+Controls:
 - Rotate/Orbit: Drag right-mouse button
 - Translate: Drag middle-mouse button
 - Zoom: Mouse scroll wheel
