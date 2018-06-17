@@ -48,6 +48,16 @@ The example scene should show how this simple script can be set up and used.
 
 -------------------
 
+SurfaceNormalPlace
+=======
+
+![gif](https://imgur.com/xd4DwnZ.gif)
+
+*SurfaceNormalPlace* Allows the user to place an array of objects on the surface of a collision object, aligned to its surface normal direction. Allows for custom offset and random rotation.
+Useful for quickly placing environment objects such as flora or buildings.
+
+-------------------
+
 TriggerToClick
 =======
 
