@@ -9,7 +9,7 @@ AnimSpriteController
 
 ![gif](https://imgur.com/Ol4JuGC.gif)
 
-*AnimSpriteController* allows the user to implement a sequence of any number of sprite textures as an animation. 
+*AnimSpriteController* allows the user to implement a sequence of any number of sprite textures as an animation for use within UI elements. 
 Useful for custom animations exported from something like After Effects, which otherwise couldn't be done within Unity.
 
 Includes the following features:
