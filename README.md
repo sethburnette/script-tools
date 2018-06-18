@@ -27,6 +27,7 @@ AvatarControl
 ![gif](https://imgur.com/JjD2MMs.gif)
 
 *AvatarColorControl* allows for custom coloration of an instanced prefab. Note that it only works with Opaque materials right now.
+
 *AvatarTextControl* allows for custom floating text (player names, for instance), always faces the viewer, and can be set to a fixed relative size so that it always remains readable at a distance.
 Useful for very simple custom avatars in a multiplayer environment.
 
