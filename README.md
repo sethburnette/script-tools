@@ -50,6 +50,15 @@ Controls:
 
 -------------------
 
+DrawLine
+=======
+
+![gif](https://imgur.com/ZGyqU73.gif)
+
+*DrawLine* is a very simple script which creates a line between any two transform locations in the scene, whether they are in motion or not. Useful for floating labels or connection indicators. The line renderer will use a default material unless otherwise specified.
+
+-------------------
+
 LightTrigger
 =======
 
