@@ -59,6 +59,15 @@ DrawLine
 
 -------------------
 
+FadeAlpha
+=======
+
+![gif](https://imgur.com/AtUUqOU.gif)
+
+*FadeAlpha* is a basic script that is specifically set up to fade-out or fade-in any object using the Standard shader.
+
+-------------------
+
 LightTrigger
 =======
 
