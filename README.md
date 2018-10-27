@@ -33,6 +33,19 @@ Useful for very simple custom avatars in a multiplayer environment.
 
 -------------------
 
+CamDisplayCapture
+=======
+
+![gif](https://imgur.com/rd4qYym.gif)
+
+*CamDisplayCapture* is designed for saving image files from a camera-driven render texture.
+
+Only current use-case: taking selfies in VR.
+
+![gif](https://imgur.com/1WokEVX.gif)
+
+-------------------
+
 CustomEditorCamera
 =======
 
