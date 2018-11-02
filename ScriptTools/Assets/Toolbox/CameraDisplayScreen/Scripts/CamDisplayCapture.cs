@@ -13,7 +13,7 @@ public class CamDisplayCapture : MonoBehaviour
 
     void Start()
     {
-        if (textDisplay.GetComponent<Text>() != null)
+        if (textDisplay != null)
         {
             currentText = textDisplay.GetComponent<Text>();
         }
@@ -41,8 +41,15 @@ public class CamDisplayCapture : MonoBehaviour
         File.WriteAllBytes(Application.productName + "_" + Time.realtimeSinceStartup + "_" + fileCounter + ".png", Bytes);
         fileCounter++;
 
-        captureInfo = "PNG file saved";
+        if (textDisplay != null)
+        {
+            captureInfo = "PNG file saved";
 
-        currentText.text = captureInfo;
+            currentText.text = captureInfo;
+        }
+        else
+        {
+            //do nothing
+        }
     }
 }
