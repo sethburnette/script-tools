@@ -22,4 +22,15 @@ public class MouseCursorHover : MonoBehaviour {
     {
         Cursor.SetCursor(null, hotSpot, curMode);
     }
+
+    //for use with UI elements and Event Triggers
+    public void PointerEnter()
+    {
+        Cursor.SetCursor(customCursor, hotSpot, curMode);
+    }
+
+    public void PointerExit()
+    {
+        Cursor.SetCursor(null, hotSpot, curMode);
+    }
 }
